@@ -6,8 +6,8 @@
   "rules": {
     "align": {
       "options": [
-        "parameters",
-        "statements"
+        "parameters"//,
+        //"statements"
       ]
     },
     "array-type": false,
@@ -65,7 +65,7 @@
       "as-needed"
     ],
     "quotemark": [
-      true,
+      false,
       "single"
     ],
     "semicolon": {
@@ -134,7 +134,10 @@
     "no-outputs-metadata-property": true,
     "template-banana-in-box": true,
     "template-no-negated-async": true,
+    "no-string-literal": false,
+    "prefer-const": [false, {"destructuring": "all"}],
     "use-lifecycle-interface": true,
+    "no-eval": false,
     "use-pipe-transform-interface": true,
     "directive-selector": [
       true,
